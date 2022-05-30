@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="backspace.png" />
+    <None Remove="cringeicon.png" />
+    <None Remove="hamburger.png" />
+    <None Remove="Info.png" />
+    <None Remove="Menu.png" />
+    <None Remove="Time.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="backspace.png" />
+    <Resource Include="cringeicon.png" />
+    <Resource Include="hamburger.png" />
+    <Resource Include="Info.png" />
+    <Resource Include="Menu.png" />
+    <Resource Include="Time.png" />
+  </ItemGroup>
+
+</Project>
